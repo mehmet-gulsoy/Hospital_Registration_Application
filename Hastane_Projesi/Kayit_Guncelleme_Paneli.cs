@@ -9,7 +9,7 @@ namespace Hastane_Pro
     public partial class Kayit_Guncelleme_Paneli : Form
     {
         private readonly SqlConnection baglanti =
-            new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=HastaneDB2;Integrated Security=True;Encrypt=False;");
+            new SqlConnection(@"Data Source=");
         public Kayit_Guncelleme_Paneli()
         {
             InitializeComponent();
@@ -230,4 +230,5 @@ WHERE TC=@tc";
 
         }
     }
+
 }
