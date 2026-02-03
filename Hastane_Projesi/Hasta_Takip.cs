@@ -8,7 +8,7 @@ namespace Hastane_Pro
     public partial class Hasta_Takip : Form
     {
         private readonly SqlConnection baglanti =
-            new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=HastaneDB2;Integrated Security=True;Encrypt=False;");
+            new SqlConnection(@"Data Source=");
 
         public Hasta_Takip()
         {
@@ -226,3 +226,4 @@ VALUES
         private void label_hastalirin_ortalama_yasi_deger_Click(object sender, EventArgs e) { }
     }
 }
+
